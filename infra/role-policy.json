@@ -1,0 +1,9 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {"Effect": "Allow", "Action": "s3:*", "Resource": ["arn:aws:s3:::__BUCKET__", "arn:aws:s3:::__BUCKET__/*"]},
+    {"Effect": "Allow", "Action": "s3:ListAllMyBuckets", "Resource": "*"},
+    {"Effect": "Allow", "Action": "secretsmanager:GetSecretValue", "Resource": "arn:aws:secretsmanager:__REGION__:__ACCOUNT__:secret:__HF_SECRET__-*"},
+    {"Effect": "Allow", "Action": "ec2:DescribeInstances", "Resource": "*"}
+  ]
+}

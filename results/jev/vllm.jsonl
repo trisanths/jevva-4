@@ -1,0 +1,10 @@
+{"kind": "lat", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 280, "n": 60, "jev_1tok": {"p50": 107.41, "p90": 108.18, "mean": 107.48}, "gen_8tok": {"p50": 142.95, "p90": 143.89, "mean": 143.0}}
+{"kind": "lat", "model": "RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic", "budget": 280, "n": 60, "jev_1tok": {"p50": 115.9, "p90": 116.96, "mean": 115.9}, "gen_8tok": {"p50": 166.64, "p90": 167.73, "mean": 166.67}}
+{"kind": "acc", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 280, "image_acc": 79.1, "nll": 0.762, "per_source": {"scienceqa": 86.75, "aokvqa": 84.88, "ai2d": 79.0, "mmstar": 61.33}, "n": 3000, "seconds": 201}
+{"kind": "acc", "model": "RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic", "budget": 280, "image_acc": 81.0, "nll": 1.199, "per_source": {"scienceqa": 89.25, "aokvqa": 86.62, "ai2d": 80.25, "mmstar": 63.5}, "n": 3000, "seconds": 202}
+{"kind": "lat", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 70, "n": 60, "enc_graph": false, "jev_1tok": {"p50": 88.57, "p90": 89.53, "mean": 88.67}, "gen_8tok": {"p50": 86.48, "p90": 86.96, "mean": 86.46}}
+{"kind": "lat_text", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "n": 60, "jev_1tok": {"p50": 36.92, "p90": 37.29}}
+{"kind": "lat", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 280, "n": 60, "enc_graph": true, "jev_1tok": {"p50": 99.06, "p90": 99.64, "mean": 99.01}, "gen_8tok": {"p50": 134.29, "p90": 134.74, "mean": 134.13}}
+{"kind": "lat", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 140, "n": 60, "enc_graph": true, "jev_1tok": {"p50": 62.3, "p90": 63.66, "mean": 62.36}, "gen_8tok": {"p50": 86.44, "p90": 87.05, "mean": 86.48}}
+{"kind": "lat", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 70, "n": 60, "enc_graph": true, "jev_1tok": {"p50": 47.63, "p90": 48.07, "mean": 47.7}, "gen_8tok": {"p50": 87.03, "p90": 87.56, "mean": 87.01}}
+{"kind": "acc", "model": "NeoChen1024/gemma-4-26B-A4B-it-qat-W4A16", "budget": 280, "enc_graph": true, "image_acc": 79.13, "nll": 0.767, "per_source": {"scienceqa": 87.12, "aokvqa": 85.12, "ai2d": 78.5, "mmstar": 61.33}, "n": 3000, "seconds": 200}
